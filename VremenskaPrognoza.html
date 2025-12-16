@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vremenska prognoza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar (isti kao i na drugim stranicama) -->
+    <nav class="navbar" id="vp">
+        <ul>
+            <li><a href="MainPage.html">Početna</a></li>
+            <li><a href="VremenskaPrognoza.html">Vremenska prognoza</a></li>
+            <li><a href="Projekat.html">O projektu</a></li>
+            <li><a href="Dodatno.html">Dodatno</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sadržaj stranice Vremenska prognoza -->
+    <div id="vremenska">
+        <h1>Vremenska prognoza</h1>
+
+        <div id="center">
+            <form action="">
+                <label for="sel">Izaberite grad:</label>
+                <select name="grad" id="sel" onchange="promeniGrad()">
+                    <option value="0">Beograd</option>
+                    <option value="1">Kragujevac</option>
+                    <option value="2">Niš</option>
+                    <option value="3">Novi Sad</option>
+                </select>
+            </form>
+
+            <iframe id="iframe" src="https://naslovi.net/vremenska-prognoza/beograd" frameborder="0" width="400" height="500"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Oblaci. Sva prava zadržana.
+    </footer>
+
+    <script src="script.js"> </script>
+</body>
+</html>

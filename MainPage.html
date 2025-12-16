@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblaci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigacija ka HTML stranicama -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="MainPage.html">Početna</a></li>
+            <li><a href="VremenskaPrognoza.html">Vremenska prognoza</a></li>
+            <li><a href="Projekat.html">O projektu</a></li>
+            <li><a href="Dodatno.html">Dodatno</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header sa linkovima ka delovima početne stranice -->
+    <header class="header">
+        <div class="header-overlay">
+            <h1>Oblaci</h1>
+            <p>Istražite nebeske forme i kategorije oblaka</p>
+
+            <!-- Linkovi ka sekcijama unutar početne stranice -->
+            <div class="header-links">
+                <a href="#cirrus">Cirrus</a>
+                <a href="#alto">Alto</a>
+                <a href="#stratus">Stratus</a>
+                <a href="#cumulonimbus">Cumulonimbus</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cirrus Section -->
+    <section id="cirrus" class="cloud-section">
+        <h2>Cirrus</h2>
+        <div class="cloud-cards">
+            <div class="card">
+                <img src="Slike/cirrus.png" alt="Cirrus">
+                <h3>Cirrus</h3>
+                <p>Visoko-altitudni oblaci, tanki i perasti, sastavljeni od ledenih kristala. Predstavljaju kategoriju visokih oblaka.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/cirrostratus.png" alt="Cirrostratus">
+                <h3>Cirrostratus</h3>
+                <p>Prozirni, beličasti oblaci koji mogu pokriti celo nebo, često stvaraju halo efekat oko Sunca ili Meseca.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/cirrocummulus.png" alt="Cirrocumulus">
+                <h3>Cirrocumulus</h3>
+                <p>Visoko-altitudni oblaci koji izgledaju kao mali, beli zakrivljeni oblaci u redovima ili uzorcima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alto Section -->
+    <section id="alto" class="cloud-section">
+        <h2>Alto</h2>
+        <div class="cloud-cards">
+            <div class="card">
+                <img src="Slike/alto.png" alt="Alto">
+                <h3>Alto</h3>
+                <p>Oblaci srednje visine, obično sivi ili beli. Predstavljaju kategoriju srednje-altitudnih oblaka.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/altostratus.png" alt="Altostratus">
+                <h3>Altostratus</h3>
+                <p>Sivi ili plavosivi srednje-altitudni oblaci koji prekrivaju celo nebo, Sunce se vidi prigušeno kroz njih.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/altocumulus.png" alt="Altocumulus">
+                <h3>Altocumulus</h3>
+                <p>Oblaci srednje visine u vidu zakrpa ili redova, mogu najaviti oluje.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stratus Section -->
+    <section id="stratus" class="cloud-section">
+        <h2>Stratus</h2>
+        <div class="cloud-cards">
+            <div class="card">
+                <img src="Slike/stratus.png" alt="Stratus">
+                <h3>Stratus</h3>
+                <p>Nisko-altitudni, uniformni sivi oblaci koji često prekrivaju celo nebo. Predstavljaju kategoriju niskih oblaka.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/stratocummulus.png" alt="Stratocumulus">
+                <h3>Stratocumulus</h3>
+                <p>Niski, grudvasti ili u redovima, retko donose padavine.</p>
+            </div>
+            <div class="card">
+                <img src="Slike/nimbostratus.png" alt="Nimbostratus">
+                <h3>Nimbostratus</h3>
+                <p>Tamni, debeli oblaci koji donose kontinuiranu kišu ili sneg.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Cumulonimbus Section -->
+    <hr class="section-separator">
+
+    <section id="cumulonimbus" class="cloud-section special-cb">
+        <div class="cb-wrapper">
+            <div class="cb-text">
+                <h3 class="cb-title">Cumulonimbus</h3>
+                <p class="cb-description">
+                    Vertikalni oblaci koji mogu izazvati oluje, kišu, grad i munje. 
+                    Jedni su od najmoćnijih atmosferskih formacija i mogu dostići 
+                    visine i preko 12 kilometara.
+                </p>
+            </div>
+
+            <img src="Slike/cumulonimbus.png" alt="Cumulonimbus" class="cb-image">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Oblaci. Sva prava zadržana.</p>
+    </footer>
+
+</body>
+</html>
