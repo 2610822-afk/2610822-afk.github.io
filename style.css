@@ -327,27 +327,43 @@ footer {
 }
 
 /*-----------------------------PROJEKAT HTML- ----------------------*/
+#projekat-body{
+    background-image: url(https://cdn.pixabay.com/photo/2023/11/29/11/05/evening-8419361_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: center center;
+}
+
 .projekat-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 80vh;
     text-align: center;
     padding: 50px 20px;
     font-family: 'Arial', sans-serif; /* drugi font za razliku od glavne stranice */
-    background-color: #e6f2ff; /* svetlo plava pozadina */
+    height: 100vh;
+
+}
+
+.projekat-content {
+    background-color: aliceblue;
+    opacity: 70%;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projekat-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    max-width: 700px;
+    opacity: 100%;
+    
 }
 
-.projekat-image {
-    max-width: 500px;
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-}
+
